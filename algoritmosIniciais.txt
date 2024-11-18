@@ -1,0 +1,203 @@
+1) Leia o ano de nascimento (anoNasc)
+2) Leia o ano atual(anoAtual)
+3) Calcule a idade(idade<-- (anoAtual-anoNasc))
+4) Se (idade<0) então
+    5) Apresente ("Não nasceu ainda")
+6) Senão
+    7) Se (idade<10) então
+        8) Apresente ("Criança")
+    9) Senão
+        10) Se (idade<18) então
+            11)Apresente ("Adolescente")
+        12) Senão
+            13) Se (idade<60) então
+                14) Apresente ("Adulto")
+            15) Senão
+                16) Se (idade<110) então)
+		    17) (Apresente ("Idoso")
+		18) Senão
+		    19) (Apresente ("Muito Antigo")
+
+
+
+1) Leia a distância percorrida(dist)
+2) Leia a quantidade em L do combustível no tanque(comb)
+3) Apresente (dist)
+4) Apresente (comb)
+5) Calcule (gstMedio<--(dist/comb))
+6) Apresente (gstMedio)
+7( Se (gstMedio >= 10) então
+    8) Apresente ("Econômico")
+9) Senão
+    10) Apresente ("Não econômico)
+
+
+
+1) Leia o peso (peso)
+2) Leia a altura (altura)
+3) Apresente (peso)
+4) Apresente (altura)
+5) Calcule o imc (imc<-- (peso/(altura*altura)))
+6) Apresente (imc)
+7) Se (imc<18,5) então
+    8) Apresente ("Excesso de magreza")
+9) Senão
+    10) Se (imc<25) então
+        11) Apresente("Peso Normal)
+    12) Senão
+        13) Se (imc< 30) então
+            14) Apresente ("Excesso de Peso")
+        15) Senão
+            16) Se (imc< 35) então
+                17) Apresente ("Obesidade Grau I")
+            18) Senão
+                19) Se (imc<40) então
+                    20) Apresente ("Obesidade grau II")
+                21) Senão
+                    22) Apresente ("Obesidade grau III")
+
+
+
+1) Leia o número A (a)
+2) Leia o número B (b)
+3) Leia o número C (c)
+4) Apresente (a, b, c)
+5) Calcule (delta<(b*b)-(4*a*c))
+6) Apresente (delta)
+7) Se (delta<0) então
+    8) Apresente ("Não existem raízes reais para a equação")
+9) Senão
+    10) Se (delta==0) então
+        11) Calcule x (x<-- (-b) / (2*a))
+        12) Apresente (x)
+    13) Senão
+        14) Calcule x1 (x1<--(-b + √delta)/(2*a))
+        15) Calcule x2 (x2<--(-b + √delta)/(2*a))
+        16) Apresente (x1, x2)
+
+
+
+1) Leia o número A (a)
+2) Leia o número B (b)
+3) Leia o número C (c)
+4) Apresente (a, b, c)
+5) Calcule (media <-- a+c)
+6) Calcule (media2 <-- b+c)
+7) Calcule (media3 <-- a+b)
+8) Se (a < media2 e b < media1 e c <media3)
+    9) Se (a == b & a == c) então
+        10) Apresente ("É um Triângulo Equilátero")
+    11) Senão
+        12) Se ( a != b & a !=c & b !=c ) então
+            13) Apresente ("É um Triângulo Escaleno")
+        14) Senão
+            15) Apresente ("É um Triângulo Isóceles")
+16) Senão
+    17) Apresente ("Não é um triângulo")
+
+
+
+1) Leia A (a)
+2) Leia B (b)
+3) Leia C (c)
+4) Se (a<b<c)
+    5) Apresente (a, b, c)
+6) Senão
+    7) Se (a<c<b)
+        8) Apresente (a, c, b)
+    9) Senão
+        10) Se (b<a<c)
+            11) Apresente (b, a, c)
+        12) Senão
+            13) Se (b<c<a)
+                14) Apresente (b, c, a)
+            15) Senão
+                16) Se(c<a<b)
+                    17) Apresente (c, a, b)
+                18) Senão
+                    19) Apresente(c, b, a)            
+
+
+
+1) Leia o nome (nome)
+2) Leia a idade (id)
+3) Calcule (nomeVelho<-nome)
+4) Calcule (idVelho<-id)
+5) Calcule (nomeNovo<-nome)
+6) Calcule (idNovo<-id)
+7) Leia o nome (nome)
+8) Leia a idade (id)
+9) Se (id<idNovo) então
+    10) Calcule (nomeNovo<-nome)
+    11) Calcule (idNovo<-id)
+12) Se (id>idVelho) então
+    13) Calcule (nomeVelho<-nome)
+    14) Calcule (idVelho<-id)
+15) Leia o nome (nome)
+16) Leia a idade (id)
+17) Se (id<idNovo) então
+    18) Calcule (nomeNovo<-nome)
+    19) Calcule (idNovo<-id)
+20) Se (id>idVelho) então
+    21) Calcule (nomeVelho<-nome)
+    22) Calcule (idVelho<-id)
+23) Leia o nome (nome)
+24) Leia a idade (id)
+25) Se (id<idNovo) então
+    26) Calcule (nomeNovo<-nome)
+    27) Calcule (idNovo<-id)
+28) Se (id>idVelho) então
+    29) Calcule (nomeVelho<-nome)
+    30) Calcule (idVelho<-id)
+31) Leia o nome (nome)
+32) Leia a idade (id)
+33) Se (id<idNovo) então
+    34) Calcule (nomeNovo<-nome)
+    35) Calcule (idNovo<-id)
+36) Se (id>idVelho) então
+    37) Calcule (nomeVelho<-nome)
+    38) Calcule (idVelho<-id)
+
+
+
+1) Leia nota 1 (nota1)
+2) Leia nota 2 (nota2)
+3) Apresente (nota1, nota2)
+4) Calcule (media<--(nota1+nota2)/2)
+5) Se (media<3)
+    6) Apresente ("Reprovado")
+7) Senão
+    8) Se (media<6)
+        9) Leia a nota 3 (nota3)
+        10) Calcule media (media<--(nota1+nota2+nota3)/3)
+	12 Apresente (media)
+        13) Se (media>=6)
+            14) Apresente ("Aprovado")
+	15) Senão
+	    16) Apresente ("Reprovado")
+    16) Senão
+        17) Apresente ("Aprovado")
+
+
+
+1) Leia Salário (salario)
+2) Apresente (salario)
+3) Se (salario<1434.59) então
+    4) Apresente ("Não há descontos no seu salário")
+5) Senão
+    6) Se (salario<2150) então
+        7) Calcule (desconto<((salario*7.5)/100)- 107.59)
+        8) Apresente (desconto)
+    9) Senão
+        10) Se (salario<2866.70) então
+            11) Calcule (desconto<((salario*15)/100)- 268.84)
+            12) Apresente (desconto)
+        13) Senão
+            14) Se (salario<3582) então
+                15) Calcule (desconto<((salario*22.5)/100)- 483.84)
+                16) Apresente (desconto)
+            17) Senão
+                18) Calcule (desconto<((salario*27.5)/100)- 662.94)
+                19) Apresente (desconto)    
+            
+

@@ -1,0 +1,83 @@
+1) Leia o ano de nascimento (anoNasc)
+2) Leia o ano atual(anoAtual)
+3) Calcule a idade(idade<-- anoAtual-anoNasc)
+4) Se (idade<0) então
+    5) Apresente ("Não nasceu ainda")
+6) Senão
+    7) Se (idade<10) então
+        8) Apresente ("Criança")
+    9) Senão
+        10) Se (idade<18) então
+            11)Apresente ("Adolescente")
+        12) Senão
+            13) Se (idade<60) então
+                14) Apresente ("Adulto")
+            15) Senão
+                16) Apresente ("Idoso")
+
+1) Leia a distância percorrida(dist)
+2) Leia a quantidade em L do combustível no tanque(comb)
+3) Apresente (dist)
+4) Apresente (comb)
+5) Calcule (gstMedio<--dist/comb)
+6) Apresente (gstMedio)
+7( Se (gstMedio >= 10) então
+    8) Apresente ("Econômico")
+9) Senão
+    10) Apresente ("Não econômico)
+
+1) Leia o peso (peso)
+2) Leia a altura (altura)
+3) Apresente (peso)
+4) Apresente (altura)
+5) Calcule o imc (imc<-- peso/(altura*altura)
+6) Apresente (imc)
+7) Se (imc<18,5) então
+    8) Apresente ("Excesso de magreza")
+9) Senão
+    10) Se (imc<25) então
+        11) Apresente("Peso Normal)
+    12) Senão
+        13) Se (imc< 30) então
+            14) Apresente ("Excesso de Peso")
+        15) Senão
+            16) Se (imc< 35) então
+                17) Apresente ("Obesidade Grau I")
+            18) Senão
+                19) Se (imc<40) então
+                    20) Apresente ("Obesidade grau II")
+                21) Senão
+                    22) Apresente ("Obesidade grau III")
+
+1) Leia o número A (a)
+2) Leia o número B (b)
+3) Leia o número C (c)
+4) Apresente (a, b, c)
+5) Calcule (delta<(b^2)-(4*a*c)
+6) Apresente (delta)
+7) Se (delta<0) então
+    8) Apresente ("Não existem raízes reais para a equação")
+9) Senão
+    10) Se (delta==0) então
+        11) Calcule x (x<--(-b/(2*a)
+        12) Apresente (x)
+    13) Senão
+        14) Calcule x1 (x1<--(-b + √delta)/(2*a)
+        15) Calcule x2 (x2<--(-b + √delta)/(2*a)
+        16) Apresente (x1, x2)
+
+1) Leia o número A (a)
+2) Leia o número B (b)
+3) Leia o número C (c)
+4) Apresente (a, b, c)
+5) Calcule (media <-- b+c)
+6) Se (a < media)
+    7) Se (a == b & a == c) então
+        7.1) Apresente ("É um Triângulo Equilátero")
+    7.2) Senão
+        7.3) Se ( a != b & a !=c & b !=c ) então
+            7.4) Apresente ("É um Triângulo Escaleno")
+        7.5) Senão
+            7.6) Apresente ("É um Triângulo Isóceles")
+8) Senão
+    9) Apresente ("Não é um triângulo")
